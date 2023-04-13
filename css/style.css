@@ -30,6 +30,19 @@ ul{
     color: #006AFF;
 }
 
+.align-center{
+    text-align: center;
+}
+
+.border-grey{
+    border: 1px solid grey;
+}
+
+div.container-small{
+    width: 60%;
+    margin: 0 auto;
+}
+
 header{
     padding: 2px;
 }
@@ -43,9 +56,12 @@ header li{
     padding: 0.2rem 0.4rem;
 }
 
+section{
+    margin-bottom: 100px;
+}
+
 section.jumbotrone{
     background-color: #B4D0E7;
-    margin-bottom: 100px;
 }
 
 section.jumbotrone>.container-large{
@@ -87,7 +103,7 @@ section.jumbotrone .arrow{
     font-size: 2rem;
 }
 
-section.business-plan>.container-small{
+div.container-small{
     width: 60%;
     margin: 0 auto;
 }
@@ -98,7 +114,7 @@ section.business-plan .plan{
     padding: 0.2rem;
     border: 1px solid grey;
 }
-
+/* 109 e/ 118 da rivedere */
 div.plan>:first-child{
     text-align: center;
     padding: 0.4rem;
@@ -116,6 +132,23 @@ div.plan li{
 div.plan i {
     padding-right: 0.5rem;
 }
+
+section.sales-office .sales-office-dx{
+    width: calc(100% / 3 );
+    margin: 1%;
+}
+
+div.sales-office-sx>*{
+    padding: 0.3rem;
+}
+
+section.sales-office .sales-office-sx{
+    width: calc(100% / 3 * 2 );
+    margin: 1%;
+}
+
+
+
 
 
 
