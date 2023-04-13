@@ -8,24 +8,24 @@
     display: flex;
 }
 
-header{
-    border: 2px solid red;
-    padding: 2px;
-    height: 100px;
-    }
-
-nav{
-    border: 2px solid green;
-    height: 92px;
-    justify-content: space-between;
-}
-
 ul{
     border: 2px solid gold;
     list-style-type: none;
 }
 
-li{
-    border: 1px solid blue;
+header{
+    border: 2px solid red;
+    padding: 2px;
 }
+
+header>nav{
+    border: 2px solid green;
+    justify-content: space-between;
+}
+
+header li{
+    margin: auto;
+    padding: 0.2rem 0.4rem;
+}
+
 
