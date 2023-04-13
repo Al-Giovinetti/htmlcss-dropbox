@@ -92,16 +92,11 @@ section.business-plan>.container-small{
     border: 2px solid red;
 }
 
-
-
 section.business-plan .plan{
     width: calc(100% / 3);
     border: 2px solid gold;
     height: 300px;
     margin: 1%;
-
-
-
 }
 
 
