@@ -85,6 +85,25 @@ section.jumbotrone .arrow{
     font-size: 2rem;
 }
 
+section.business-plan>.container-small{
+    width: 60%;
+    margin: 0 auto;
+    height: 500px;
+    border: 2px solid red;
+}
+
+
+
+section.business-plan .plan{
+    width: calc(100% / 3);
+    border: 2px solid gold;
+    height: 300px;
+    margin: 1%;
+
+
+
+}
+
 
 
 
