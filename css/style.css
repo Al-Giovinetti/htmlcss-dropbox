@@ -8,6 +8,12 @@
     display: flex;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 ul{
     border: 2px solid gold;
     list-style-type: none;
@@ -27,5 +33,28 @@ header li{
     margin: auto;
     padding: 0.2rem 0.4rem;
 }
+
+section>.container-large{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid green;
+    height: 500px;
+}
+
+section .jumbo-text{
+    flex-direction: column;
+    float: left;
+    width: calc(100% / 3);
+    border: 2px solid magenta;
+}
+
+section .jumbo-img{
+    float: left;
+    width: calc(100% / 3 * 2);
+    height: 200px;
+    border: 2px solid aqua;
+}
+
+
 
 
