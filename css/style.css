@@ -1,0 +1,31 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    border: 2px solid red;
+    padding: 2px;
+    height: 100px;
+    }
+
+nav{
+    border: 2px solid green;
+    height: 92px;
+    justify-content: space-between;
+}
+
+ul{
+    border: 2px solid gold;
+    list-style-type: none;
+}
+
+li{
+    border: 1px solid blue;
+}
+
