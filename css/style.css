@@ -43,18 +43,18 @@ section.jumbotrone{
     margin-bottom: 100px;
 }
 
-section>.container-large{
+section.jumbotrone>.container-large{
     width: 70%;
     margin: 0 auto;
     border: 2px solid green;
     position: relative;
 }
 
-section .container-large>h1{
+section.jumbotrone .container-large>h1{
     font-size: 4rem;
 }
 
-section .jumbo-text{
+section.jumbotrone .jumbo-text{
     flex-direction: column;
     float: left;
     width: calc(100% / 3);
@@ -62,28 +62,29 @@ section .jumbo-text{
     padding-top: 4rem;
 }
 
-section .jumbo-text>*{
+section.jumbotrone .jumbo-text>*{
     padding-bottom: 1rem;;
 }
 
-section .jumbo-img{
+section.jumbotrone .jumbo-img{
     float: left;
     width: calc(100% / 3 * 2);
     border: 2px solid aqua;
 }
 
-section .jumbo-img>img{
+section.jumbotrone .jumbo-img>img{
     width: 100%;
     position: relative;
     top: 4rem;
 }
 
-section .arrow{
+section.jumbotrone .arrow{
     position: absolute;
     bottom: 0.3rem;
     left: 0.3rem;
     font-size: 2rem;
 }
+
 
 
 
