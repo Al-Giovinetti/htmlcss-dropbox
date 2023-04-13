@@ -19,17 +19,18 @@ button{
 }
 
 ul{
-    border: 2px solid gold;
     list-style-type: none;
 }
 
+.color-grey{
+    color: gray;
+}
+
 header{
-    border: 2px solid red;
     padding: 2px;
 }
 
 header>nav{
-    border: 2px solid green;
     justify-content: space-between;
 }
 
@@ -46,7 +47,6 @@ section.jumbotrone{
 section.jumbotrone>.container-large{
     width: 70%;
     margin: 0 auto;
-    border: 2px solid green;
     position: relative;
 }
 
@@ -58,7 +58,6 @@ section.jumbotrone .jumbo-text{
     flex-direction: column;
     float: left;
     width: calc(100% / 3);
-    border: 2px solid magenta;
     padding-top: 4rem;
 }
 
@@ -69,7 +68,6 @@ section.jumbotrone .jumbo-text>*{
 section.jumbotrone .jumbo-img{
     float: left;
     width: calc(100% / 3 * 2);
-    border: 2px solid aqua;
 }
 
 section.jumbotrone .jumbo-img>img{
@@ -89,14 +87,21 @@ section.business-plan>.container-small{
     width: 60%;
     margin: 0 auto;
     height: 500px;
-    border: 2px solid red;
 }
 
 section.business-plan .plan{
     width: calc(100% / 3);
-    border: 2px solid gold;
     height: 300px;
     margin: 1%;
+}
+
+.plan>:first-child{
+    text-align: center;
+    padding: 0.4rem;
+}
+
+div.plan>.name-plan, div.name-plan>*{
+    padding: 0.4rem;
 }
 
 
