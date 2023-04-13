@@ -75,7 +75,7 @@ section.jumbotrone .jumbo-img{
 section.jumbotrone .jumbo-img>img{
     width: 100%;
     position: relative;
-    top: 4rem;
+    bottom: -4rem;;
 }
 
 section.jumbotrone .arrow{
