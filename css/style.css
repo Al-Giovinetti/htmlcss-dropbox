@@ -57,11 +57,12 @@ header li{
 }
 
 section{
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 section.jumbotrone{
     background-color: #B4D0E7;
+    margin-bottom: 100px;
 }
 
 section.jumbotrone>.container-large{
@@ -145,6 +146,23 @@ div.sales-office-sx>*{
 section.sales-office .sales-office-sx{
     width: calc(100% / 3 * 2 );
     margin: 1%;
+}
+
+div.img-partner{
+    width: 60%;
+}
+
+div.img-partner>img{
+    width: 100%;
+}
+
+div.text-partner{
+    width: 40%;
+    padding: 4rem 3rem;
+}
+
+div.text-partner>*{
+    padding: 0.5rem;
 }
 
 
