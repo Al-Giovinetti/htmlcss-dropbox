@@ -26,6 +26,10 @@ ul{
     color: gray;
 }
 
+.color-blu{
+    color: #006AFF;
+}
+
 header{
     padding: 2px;
 }
@@ -86,22 +90,31 @@ section.jumbotrone .arrow{
 section.business-plan>.container-small{
     width: 60%;
     margin: 0 auto;
-    height: 500px;
 }
 
 section.business-plan .plan{
     width: calc(100% / 3);
-    height: 300px;
     margin: 1%;
+    padding: 0.2rem;
+    border: 1px solid grey;
 }
 
-.plan>:first-child{
+div.plan>:first-child{
     text-align: center;
     padding: 0.4rem;
 }
 
-div.plan>.name-plan, div.name-plan>*{
+div.plan>.name-plan,
+div.name-plan>*{
     padding: 0.4rem;
+}
+
+div.plan li{
+    padding: 0.7rem
+}
+
+div.plan i {
+    padding-right: 0.5rem;
 }
 
 
