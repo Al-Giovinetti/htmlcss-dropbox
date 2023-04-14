@@ -207,17 +207,37 @@ section.operation p{
     padding: 0rem 0.5rem 1rem
 }
 
+/* sezioni blocchi colorati */
+section.colored-boxs .column-33:nth-child(2){
+    padding: 1rem 0.5rem 10rem;
+}
+
+section.colored-boxs .column-33>img{
+    height: 5rem;
+}
+
+.svg-small{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 50%; left: 50%; 
+    transform: translate(-50%,-50%);
+    filter: invert(100%);
+
+}
+
+
+
 div.column-33{
-    width: calc(100% / 3 - 6px);
-    border: 1px solid;
-    margin: 2px;
+    width: calc(100% / 3);
+    padding: 2px;
+    
 }
 
 div.column-50{
     width: 50%;
-    height: 100px;
     background-color: blue;
-    border: 1px solid brown;
+    position: relative;
 }
 
 div.column-60{
