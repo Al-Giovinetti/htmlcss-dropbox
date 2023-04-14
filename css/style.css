@@ -118,7 +118,7 @@ div.container-small{
     margin: 0 auto;
 }
 
-div.container-small>h2,
+div.business-plan h2,
 div.business-plan>.container-small:nth-child(2){
     padding: 2rem;
 }
