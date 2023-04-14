@@ -193,12 +193,24 @@ div.text-partner>*{
     background-color: yellow;
     border: 1px solid magenta;
 }
+/* sezione esegui operazioni */
+
+div.img-operation{
+    height: 220px;
+}
+
+div.img-operation>img{
+  width: 100%;}
+
+section.operation h3,
+section.operation p{
+    padding: 0rem 0.5rem 1rem
+}
 
 div.column-33{
-    width: calc(100% / 3);
-    background-color: red;
+    width: calc(100% / 3 - 6px);
     border: 1px solid;
-    height: 200px;
+    margin: 2px;
 }
 
 div.column-50{
