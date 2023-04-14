@@ -25,6 +25,8 @@ body{
 
 button{
     padding:0.5rem 0.7rem;
+    border-radius: 0;
+    border: 0;
 }
 
 ul{
@@ -37,6 +39,10 @@ ul{
 
 .color-blu{
     color: #006AFF;
+}
+
+.color-white{
+    color: white;
 }
 
 .bg-blu{
@@ -64,13 +70,10 @@ div.container-large{
 
 div.column-33{
     width: calc(100% / 3);
-    padding: 2px;
-    
 }
 
 div.column-50{
     width: 50%;
-    background-color: blue;
     position: relative;
 }
 
@@ -236,6 +239,7 @@ div.text-partner>button{
 }
 
 /* sezione esegui operazioni */
+
 section.operation>.container-small>h2{
     padding-bottom: 3rem;
 }
@@ -254,12 +258,16 @@ section.operation p{
 
 /* sezioni blocchi colorati */
 
+div.container-small>h2{
+    margin-bottom: 20px;
+}
+
 section.colored-boxs .column-33:nth-child(2){
-    padding: 1rem 0.5rem 10rem;
+    padding: 1rem 0.5rem 
 }
 
 section.colored-boxs .column-33>img{
-    height: 5rem;
+    height: 4rem;
 }
 
 .svg-small{
@@ -275,6 +283,41 @@ section.colored-boxs .column-33>img{
 div.prova-gratis{
     justify-content: space-around;
     padding: 2rem 0;
+}
+
+div.bg-grey>p{
+   margin-bottom: 3rem;
+}
+
+div.bg-grey>span{
+    margin-bottom: 5rem;
+    display: block;
+}
+
+
+.bg-grey{
+    background-color: #F5F5F5;
+}
+.bg-lightgreen{
+    background-color: #A2D39B;
+}
+.bg-purple{
+    background-color: #61082B;
+}
+.bg-azure{
+    background-color: #0093CE;
+}
+.bg-orange{
+    background-color: #FF1C1C;
+}
+.bg-red{
+    background-color: #D5001F;
+}
+.bg-darkblu{
+    background-color:#0D2481;
+}
+.bg-yellow{
+    background-color: #FFD830;
 }
 
 /* sezione domande */
@@ -304,6 +347,15 @@ footer nav{
 
 footer div:last-child{
     padding: 1rem 0;
+}
+
+footer li{
+    padding-top: 1rem;
+}
+
+footer:last-child span{
+    display: inline-block;
+    padding: 0.5rem;
 }
 
 
