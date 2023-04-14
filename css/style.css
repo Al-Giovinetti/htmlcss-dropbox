@@ -245,9 +245,27 @@ div.request{
 div.request>i{
     position: absolute;
     right: 20px;
-
-
 }
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top:20px; 
+}
+
+footer nav{
+    justify-content: space-between;
+}
+
+footer div:last-child{
+    padding: 1rem 0;
+}
+
+
+
+
 
 div.column-33{
     width: calc(100% / 3);
@@ -261,11 +279,6 @@ div.column-50{
     position: relative;
 }
 
-footer{
-    background-color: black;
-    height: 300px;
-    padding-top:20px; ;
-}
 
 
 
