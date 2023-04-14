@@ -124,8 +124,8 @@ div.business-plan>.container-small:nth-child(2){
 }
 
 section.business-plan .plan{
-    width: calc(100% / 3);
-    margin: 1%;
+    width: calc(100% / 3 - 2%);
+    margin:1%;
     padding: 0.2rem;
     border: 1px solid grey;
 }
@@ -152,8 +152,12 @@ div.rattoppo>*{
     padding: 0.3rem 0.6rem;
     display: block;
 }
+div.plan-large{
+    width: 100%;
+    margin:1%
+}
 
-div.sales-office .sales-office-dx{
+div.plane-large .sales-office-dx{
     width: calc(100% / 3 );
     margin: 1%;
 }
@@ -162,7 +166,7 @@ div.sales-office-sx>*{
     padding: 0.3rem;
 }
 
-div.sales-office .sales-office-sx{
+div.plan-large .sales-office-sx{
     width: calc(100% / 3 * 2 );
     margin: 1%;
 }
