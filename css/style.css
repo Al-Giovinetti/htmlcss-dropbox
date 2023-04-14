@@ -62,6 +62,20 @@ div.container-large{
     position: relative;
 }
 
+div.column-33{
+    width: calc(100% / 3);
+    padding: 2px;
+    
+}
+
+div.column-50{
+    width: 50%;
+    background-color: blue;
+    position: relative;
+}
+
+/* header */
+
 header{
     padding: 2px;
 }
@@ -82,6 +96,8 @@ header li{
 section{
     margin-bottom: 60px;
 }
+
+/* sezione jumbotrone */
 
 section.jumbotrone{
     margin-bottom: 100px;
@@ -120,48 +136,62 @@ section.jumbotrone .arrow{
     font-size: 2rem;
 }
 
-div.container-small{
-    width: 60%;
-    margin: 0 auto;
+/* sezione piani di pagamento */
+
+section.business-plan h2,
+section.business-plan>.container-small>div:nth-child(2){
+    padding: 0.5rem;
 }
 
-div.business-plan h2,
-div.business-plan>.container-small:nth-child(2){
-    padding: 2rem;
-}
+ section.business-plan input+span{
+    padding-right: 5rem;
+ }
 
 section.business-plan .plan{
     width: calc(100% / 3 - 2%);
     margin:1%;
-    padding: 0.2rem;
-    border: 1px solid grey;
-}
-/* 109 e/ 118 da rivedere */
-div.plan>:first-child{
-    text-align: center;
-    padding: 0.4rem;
 }
 
-div.plan>.name-plan,
+div.plan>:first-child{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+div.plan>.name-plan{
+    padding-bottom: 2rem;
+}
 div.name-plan>*{
-    padding: 0.4rem;
+    padding: 0.7rem;
+}
+
+ul.list-h-fissa{
+    height: 220px;
 }
 
 div.plan li{
     padding: 0.7rem
 }
 
-div.plan i {
+section.business-plan i{
     padding-right: 0.5rem;
 }
 
 div.rattoppo>*{
-    padding: 0.3rem 0.6rem;
     display: block;
+    margin: 2rem;
 }
+
+div.rattoppo :nth-child(2){
+    padding-bottom: 3rem;
+}
+
 div.plan-large{
     width: 100%;
     margin:1%
+}
+
+div.plan-large>div.align-center{
+    padding: 0.5rem;
 }
 
 div.plane-large .sales-office-dx{
@@ -178,6 +208,12 @@ div.plan-large .sales-office-sx{
     margin: 1%;
 }
 
+.sales-office-dx>button{
+    margin-top: 1rem;
+}
+
+/* sezione partner */
+
 div.img-partner{
     width: 60%;
 }
@@ -188,19 +224,21 @@ div.img-partner>img{
 
 div.text-partner{
     width: 40%;
-    padding: 4rem 3rem;
+    padding: 2rem 0;
 }
 
-div.text-partner>*{
-    padding: 0.5rem;
+div.text-partner>p{
+    padding: 1rem;
 }
 
-
-.bg-yellow{
-    background-color: yellow;
-    border: 1px solid magenta;
+div.text-partner>button{
+    margin-top: 2rem;
 }
+
 /* sezione esegui operazioni */
+section.operation>.container-small>h2{
+    padding-bottom: 3rem;
+}
 
 div.img-operation{
     height: 220px;
@@ -211,10 +249,11 @@ div.img-operation>img{
 
 section.operation h3,
 section.operation p{
-    padding: 0rem 0.5rem 1rem
+    padding: 0rem 1rem 1rem
 }
 
 /* sezioni blocchi colorati */
+
 section.colored-boxs .column-33:nth-child(2){
     padding: 1rem 0.5rem 10rem;
 }
@@ -268,20 +307,6 @@ footer div:last-child{
 }
 
 
-
-
-
-div.column-33{
-    width: calc(100% / 3);
-    padding: 2px;
-    
-}
-
-div.column-50{
-    width: 50%;
-    background-color: blue;
-    position: relative;
-}
 
 
 
