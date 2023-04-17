@@ -256,7 +256,10 @@ div.img-operation{
 }
 
 div.img-operation>img{
-  width: 100%;}
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 
 section.operation h3,
 section.operation p{
