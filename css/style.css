@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    min-width: 1080px
 }
 
 .flex{
@@ -74,6 +75,7 @@ div.column-33{
 
 div.column-50{
     width: 50%;
+    height: 50%;
     position: relative;
 }
 
@@ -257,6 +259,11 @@ section.operation p{
 }
 
 /* sezioni blocchi colorati */
+
+section.colored-boxs div.column-33{
+    height: calc(100vw / 3);
+    width: calc(100vw / 3);
+}
 
 div.container-small>h2{
     margin-bottom: 20px;
