@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    min-width: 1080px
+    min-width: 1080px;
 }
 
 .flex{
@@ -278,7 +278,8 @@ div.container-small>h2{
 }
 
 section.colored-boxs .column-33:nth-child(2){
-    padding: 1rem 0.5rem 
+    padding: 2rem;
+    font-size: small;
 }
 
 section.colored-boxs .column-33>img{
@@ -301,11 +302,11 @@ div.prova-gratis{
 }
 
 div.bg-grey>p{
-   margin-bottom: 3rem;
+   margin: 2rem 0;
 }
 
 div.bg-grey>span{
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
     display: block;
 }
 
