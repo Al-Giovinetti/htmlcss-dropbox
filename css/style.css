@@ -234,14 +234,15 @@ div.img-partner>img{
 div.text-partner{
     width: 40%;
     padding: 2rem 0;
-}
-
-div.text-partner>p{
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
     padding: 1rem;
 }
 
 div.text-partner>button{
-    margin-top: 2rem;
+    align-self: self-start;
+    border: 1px solid black;
 }
 
 /* sezione esegui operazioni */
