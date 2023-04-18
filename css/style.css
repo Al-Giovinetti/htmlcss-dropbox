@@ -192,7 +192,7 @@ div.rattoppo span:last-child{
 }
 
 div.rattoppo>button{
-    margin-left: 2rem;
+    margin: 0 15%;
 }
 
 div.plan-large{
@@ -335,6 +335,14 @@ div.bg-grey>span{
 }
 .bg-yellow{
     background-color: #FFD830;
+}
+
+.color-red{
+    color: #61082B;
+}
+
+#border-green{
+    border: 1rem solid #D1E9CD;
 }
 
 /* sezione domande */
